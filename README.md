@@ -12,6 +12,10 @@ $ git checkout -b newbranchName
 $ git remote add upstream https://github.com/username/originalrepo
 ```
 5. Work on your branch and make commits 
+Check the branch: 
+```bash
+$ git branch -a
+```
 6. Push:
 ```bash
 $ git push -u origin newbranchName
